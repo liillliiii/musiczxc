@@ -13,7 +13,7 @@ SECRET_KEY = "_!#44rvh8wx-+_utpz@4aj_qa^rj+s2o6e*w9u-!bn39vqcbr0"
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['52.78.189.180']
 
 # Application definition
 
@@ -108,9 +108,9 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR, "static")]
 
 SOCIAL_AUTH_URL_NAMESPACE = "social"
 
-SOCIAL_AUTH_SPOTIFY_KEY = "5fe40e82ba784e6e8c10e465af890764"  # was this:  os.environ['SPOTIPY_CLIENT_ID']
+SOCIAL_AUTH_SPOTIFY_KEY = "40dc10a289924703b824e4126cc818df"  # was this:  os.environ['SPOTIPY_CLIENT_ID']
 SOCIAL_AUTH_SPOTIFY_SECRET = (
-    "50e66225e91841528af44e703ac3e53d"  # was this: os.environ['SPOTIPY_CLIENT_SECRET']
+    " b6bcfb3f10e240d9a5c862af5487fbb5"  # was this: os.environ['SPOTIPY_CLIENT_SECRET']
 )
 
 AUTHENTICATION_BACKENDS = (
